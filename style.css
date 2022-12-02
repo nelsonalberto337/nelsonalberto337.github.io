@@ -1,0 +1,402 @@
+@font-face {
+    font-family: lmr;
+    src: url(Lemonmilk/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: mhr;
+    src: url(magic_hour/Magic\ Hour.ttf);
+}
+@font-face {
+    font-family: mc;
+    src: url(monocrome/MONOCROME.ttf);
+}
+@font-face {
+    font-family: am;
+    src: url(attack_molens/ATTACK\ MOLENS.otf);
+}
+@font-face {
+    font-family: lmb;
+    src: url(Lemonmilk/LEMONMILK-Bold.otf);
+}
+
+
+
+body{
+    background-color: #F3EEEA;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Nav*/
+nav{
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    padding: 1vh 5%;
+    margin-top: 3vh;
+    border-top: 0.2em black solid;
+    font-family: lmr;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+nav ul li{
+    transition: 0.2s linear;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+    transition: 0.2s linear;
+}
+
+/*Header*/
+
+.Profil{
+    z-index:0;
+    background-image: url(PNG-Nelson/Frame.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top;
+    position: absolute;
+    display: flexbox;
+}
+.Profil .border{
+    z-index: 1;
+    width: 100%;
+    height: 90vh;
+    background-image: url(PNG-Nelson/Loop\ Curve\ Text.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: top;
+    position: absolute;
+    top: 4vh;
+}
+.Profil .star{
+    height: 35vh;
+    width: 90%;
+    background-image: url(PNG-Nelson/Star\ with\ line.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 15%;
+    background-position:right;
+}
+
+/*About*/
+
+
+.About{
+    margin-top:100vh;
+    padding: 0 10%;
+    color: #7E6A52;
+}
+.About h1{
+    text-align: center;
+    font-size: 6vh;
+    font-weight: lmb;
+}
+.About1{
+    display: flex;
+}
+.About1-1{
+    height: 0vh;
+    margin-top: 10vh;
+    text-align: right;
+    width: 33.33%;
+    font-size: 3.5vh;
+    font-family: mc;
+}
+.About1-1 h3{
+    text-align: right;
+    margin-top: -2vh;
+    width: 70%;
+}
+.About1-2{
+    height: 40vh;
+}
+.About1-3{
+    width: 33.33%;
+    margin-top: 10vh;
+    font-family: mhr;
+}
+.About1-3 div{
+    display: flex;
+}
+.About1-3 div img{
+    height: 5vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-right: 2vh;
+}
+.About1-3 div:nth-child(1) img{
+    height: 8vh;
+    margin-left: 0.2vh;
+    margin-top: 0;
+    margin-right: 0.5vh;
+}
+.About1-3 div:nth-child(2) img{
+    height: 4.5vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+.About1-3 div p{
+    font-size: 3vh;
+    letter-spacing: 0.3vh;
+}
+
+/*Objective*/
+.Objective{
+    padding: 15vh 0;
+    color: #7E6A52;
+}
+.Objective h1{
+    text-align: center;
+    font-size: 5.5vh;
+    font-family: lmb;
+}
+.Objective h2{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 3.8vh;
+    font-family: am;
+}
+
+/*Skill*/
+.Skill{
+    color: #7E6A52;
+}
+.Skill h1{
+    text-align: center;
+    font-size: 5.5vh;
+    font-family: lmb;
+}
+.Skill ul{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 3.8vh;
+    font-family: am;
+}
+.Skill ul li{
+    width: 20%;
+    text-align: center;
+}
+
+/*Software*/
+.Software{
+    margin: 10vh 0;
+    color: #7E6A52;
+}
+.Software h1{
+    text-align: center;
+    font-size: 5.5vh;
+    text-transform: uppercase;
+    font-family: lmb;
+}
+.Software div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: am;
+}
+.Software div div{
+    width: 50%;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.Software div div p{
+    font-size: 3.8vh;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+    height: 3vh;
+    align-items: center;
+    display: flex;
+}
+.Bintang-4{
+    height: 5vh;
+    width: 40%;
+    background-size: 80%;
+    background-image: url(PNG-Nelson/Group\ 11.png);
+    background-repeat: no-repeat;
+}
+.Bintang-3{
+    height: 5vh;
+    width: 40%;
+    background-size: 80%;
+    background-image: url(PNG-Nelson/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+.Bintang-5{
+    height: 5vh;
+    width: 40%;
+    background-size: 80%;
+    background-image: url(PNG-Nelson/Group\ 13.png);
+    background-repeat: no-repeat;
+}
+
+/*Language*/
+.Language{
+    color: #7E6A52;
+}
+
+.Language h1{
+    font-size: 5.5vh;
+    text-align: center;
+    font-family: lmb;
+}
+.Language div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.Language div div{
+    display: block;
+    width: 33.33%;
+}
+.Language div div h2{
+    font-size: 5vh;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    border-radius: 3rem;
+    background-color:#806c57 ;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2vh;
+    font-family: lmr;
+}
+.Language div div div{
+    display: flex;
+    width: 100%;
+}
+.Language div div div p{
+    width: 60%;
+    font-size: 3.8vh;
+    margin: 0;
+    height: 2vh;
+    display: flex;
+    font-family: am;
+    margin-top: -1vh;
+}
+/*Work*/
+
+.Working{
+    height: 180vh;
+    width: 100%;
+    margin: auto;
+    background-image: url(PNG-Nelson/Group\ 12.png);
+    background-position: 58%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10vh 0;
+}
+
+
+/*Logo Design*/
+.Logo{
+    width: 100%;
+}
+
+.Judul-logo{
+    height: 90vh;
+    width: 100%;
+    background-image: url(PNG-Nelson/Title\ 3rd\ Slide.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Logo-list1{
+    margin-left:10%;
+}
+.Logo-list2{
+    text-align: right;
+    position: relative;
+    margin-right: 5%;
+}
+.Logo-list3{
+    position: relative;
+    left: -20vh;
+}
+.Logo-list1 img , .Logo-list3 img{
+    height: 90vh;
+}
+.Logo-list2 img{
+    height: 80vh;
+}
+.b1{
+    height: 70vh;
+    width: 40%;
+    background-image: url(PNG-Nelson/Bintang\ 1.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 60%;
+    background-position: 45vh;
+}
+.b5{
+    height: 110vh;
+    width: 60%;
+    background-image: url(PNG-Nelson/Bintang-2.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 90vh;
+    background-position: -50vh;
+}
+.b3{
+    height: 70vh;
+    width: 40%;
+    background-image: url(PNG-Nelson/Bintang\ 3.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 60%;
+    background-position: 45vh;
+}
+.b4{
+    height: 80vh;
+    width: 40%;
+    background-image: url(PNG-Nelson/Bintang\ 4.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -45vh;
+}
+
+/*Model*/
+
+.Model{
+    width: 100%;
+}
+
+.Judul-Model{
+    height: 90vh;
+    width: 100%;
+    background-image: url(PNG-Nelson/Title\ 4th\ slide.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10vh;
+}
+.Model-list{
+    background-image: url(PNG-Nelson/Content\ 4th\ slide.png);
+    height: 240vh;
+    width: 100%;
+    background-position: 56%;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
